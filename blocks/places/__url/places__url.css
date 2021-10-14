@@ -1,0 +1,21 @@
+.places__url {
+    text-decoration: underline;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s ease-out ;
+}
+
+.places__url:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 375px) {
+    .places__url {
+        font-size: 18px;
+        line-height: 122%;
+    }
+}

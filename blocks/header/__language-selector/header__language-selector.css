@@ -1,0 +1,8 @@
+.header__language-selector {
+    margin: 0 18px 0 0;
+    padding: 0;
+}
+
+.header__language-selector:last-of-type {
+    margin: 0;
+}

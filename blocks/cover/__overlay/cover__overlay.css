@@ -1,0 +1,32 @@
+.cover__overlay {
+    position: relative;
+    cursor: pointer;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.cover__overlay::before {
+    content: " ";
+    background-color:  #2A2C2F;
+    width: 100%;
+    opacity: .3;
+    height: 100%;
+    top: 0;
+    display: flex;
+    grid-column: 1;
+    grid-row: 1/-1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: ease-out 0.5s;
+}
+
+.cover__overlay:hover::before {
+    opacity: .8;
+}
