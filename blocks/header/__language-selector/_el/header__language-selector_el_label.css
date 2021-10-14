@@ -10,7 +10,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .header__language-selector_el_label {
         font-size: 18px;
         line-height: 111%;

@@ -8,7 +8,7 @@
     align-items: flex-start;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     .places__website {
         max-width: calc(100% - 16px*2);
         margin: 32px auto;
