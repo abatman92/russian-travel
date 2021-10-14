@@ -6,7 +6,7 @@
 **Технологии**
 Использованы технологии HTML5 и CSS3.
 
-**Figma**
+**Сайт**
 
 * [Ссылка на сайт](https://www.abatman92.github.io/russian-travel/)
 
