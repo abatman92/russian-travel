@@ -5,9 +5,8 @@
     text-decoration: none;
     width: 100%;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 .cover__overlay::before {
@@ -19,7 +18,7 @@
     top: 0;
     display: flex;
     grid-column: 1;
-    grid-row: 1/-1;
+    grid-row: 1;
     position: absolute;
     top: 0;
     left: 0;

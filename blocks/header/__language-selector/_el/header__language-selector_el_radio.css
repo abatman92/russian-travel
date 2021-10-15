@@ -1,9 +1,0 @@
-.header__language-selector_el_radio {
-    position: absolute;
-    left: -99999px;
-}
-
-
-.header__language-selector_el_radio:checked + label {
-    text-decoration:  underline;
-}

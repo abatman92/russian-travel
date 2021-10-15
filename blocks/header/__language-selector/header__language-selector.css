@@ -1,8 +1,27 @@
 .header__language-selector {
     margin: 0 18px 0 0;
     padding: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%;
+    letter-spacing: 0em;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .header__language-selector:last-of-type {
     margin: 0;
+}
+
+@media screen and (max-width: 420px) {
+    .header__language-selector {
+        font-size: 18px;
+        line-height: 111%;
+    }
+}
+
+.header__language-selector:hover {
+    opacity: .8;
 }

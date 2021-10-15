@@ -6,7 +6,19 @@
     letter-spacing: 1.5px;
     text-align: left;
     text-transform: uppercase;
-    margin: 8px 0 0;
+    margin: 8px auto 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+    max-width: calc(100% - 24px*2);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .lead__caption {
+        max-width: calc(100% - 16px*2);
+        }
 }
