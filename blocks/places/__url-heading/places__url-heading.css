@@ -10,7 +10,7 @@
     margin-block-end: 12px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 700px) {
     .places__url-heading {
         font-size: 12px;
         line-height: 1;

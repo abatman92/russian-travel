@@ -1,5 +1,5 @@
 .places__image {
-    max-width: 100%;
+    width: 100%;
     object-fit: contain;
     margin: 0;
     padding: 0;
@@ -7,21 +7,11 @@
     grid-area: places__image;
 }
 
-@media screen and (max-width: 768px) {
-    .places__image {
-        max-width: 340px;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .places__image {
-        max-width: 370px;
-    }
-}
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 700px) {
     .places__image {
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto 32px;
     }
 }
