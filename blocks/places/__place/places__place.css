@@ -5,7 +5,7 @@
     display: grid;
     column-gap: 40px;
     grid-template-columns: fit-content(460px) 1fr;
-    grid-template-rows: min-content min-content min-content;
+    grid-template-rows: auto min-content 1fr;
     grid-template-areas:  
     "places__title places__website"
     "places__image places__paragraph"
